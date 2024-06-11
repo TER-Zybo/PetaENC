@@ -2,6 +2,8 @@
 
 This repositories provide an IP block design that includes a debouncer and AXI GPIO for the PmodENC rotary encoder. This IP block can be integrated into a Vivado project to facilitate the use of a debounced encoder input in FPGA designs.
 
+![Design](design.png)
+
 ## Adding the IP Repository to Vivado
 
 1. **clone the repository**:
