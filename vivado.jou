@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Jun 11 15:09:07 2024
+# Process ID: 785261
+# Current directory: /nfs/home/m1info3/Documents/TER_FPGA/ip_repo/PetaENC
+# Command line: vivado
+# Log file: /nfs/home/m1info3/Documents/TER_FPGA/ip_repo/PetaENC/vivado.log
+# Journal file: /nfs/home/m1info3/Documents/TER_FPGA/ip_repo/PetaENC/vivado.jou
+# Running On: secil10.siame.univ-tlse3.fr, OS: Linux, CPU Frequency: 3814.267 MHz, CPU Physical cores: 8, Host memory: 16464 MB
+#-----------------------------------------------------------
+start_gui
+open_project /nfs/home/m1info3/Documents/TER_FPGA/hw_with_enc/hw_with_enc.xpr
+open_project /nfs/home/m1info3/Documents/TER_FPGA/PetaENC/PetaENC.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir /nfs/home/m1info3/Documents/TER_FPGA/ip_repo/PetaENC -vendor user.org -library user -taxonomy /UserIP -module PetaENC -import_files
