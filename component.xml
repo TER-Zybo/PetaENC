@@ -298,26 +298,6 @@
       </spirit:parameters>
     </spirit:busInterface>
     <spirit:busInterface>
-      <spirit:name>GPIO_Top_Row_0</spirit:name>
-      <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="gpio" spirit:version="1.0"/>
-      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="gpio_rtl" spirit:version="1.0"/>
-      <spirit:mirroredMaster/>
-      <spirit:portMaps>
-        <spirit:portMap>
-          <spirit:logicalPort>
-            <spirit:name>TRI_O</spirit:name>
-          </spirit:logicalPort>
-          <spirit:physicalPort>
-            <spirit:name>GPIO_Top_Row_0_tri_o</spirit:name>
-            <spirit:vector>
-              <spirit:left spirit:format="long">3</spirit:left>
-              <spirit:right spirit:format="long">0</spirit:right>
-            </spirit:vector>
-          </spirit:physicalPort>
-        </spirit:portMap>
-      </spirit:portMaps>
-    </spirit:busInterface>
-    <spirit:busInterface>
       <spirit:name>Pmod_out_0</spirit:name>
       <spirit:busType spirit:vendor="digilentinc.com" spirit:library="interface" spirit:name="pmod" spirit:version="1.0"/>
       <spirit:abstractionType spirit:vendor="digilentinc.com" spirit:library="interface" spirit:name="pmod_rtl" spirit:version="1.0"/>
@@ -868,7 +848,7 @@ Each I/O pin of the AXI GPIO is individually programmable as an input or output 
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>b7e79440</spirit:value>
+            <spirit:value>1498b9c8</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -893,7 +873,7 @@ Each I/O pin of the AXI GPIO is individually programmable as an input or output 
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>e61a8ed4</spirit:value>
+            <spirit:value>65222859</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -937,23 +917,6 @@ Each I/O pin of the AXI GPIO is individually programmable as an input or output 
       </spirit:view>
     </spirit:views>
     <spirit:ports>
-      <spirit:port>
-        <spirit:name>GPIO_Top_Row_0_tri_o</spirit:name>
-        <spirit:wire>
-          <spirit:direction>in</spirit:direction>
-          <spirit:vector>
-            <spirit:left spirit:format="long">3</spirit:left>
-            <spirit:right spirit:format="long">0</spirit:right>
-          </spirit:vector>
-          <spirit:wireTypeDefs>
-            <spirit:wireTypeDef>
-              <spirit:typeName>STD_LOGIC_VECTOR</spirit:typeName>
-              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
-              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
-            </spirit:wireTypeDef>
-          </spirit:wireTypeDefs>
-        </spirit:wire>
-      </spirit:port>
       <spirit:port>
         <spirit:name>Pmod_out_0_pin10_i</spirit:name>
         <spirit:wire>
@@ -1594,7 +1557,7 @@ Each I/O pin of the AXI GPIO is individually programmable as an input or output 
       <spirit:file>
         <spirit:name>src/PetaENC.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_70ccadcd</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_5cfb7d62</spirit:userFileType>
         <spirit:userFileType>IMPORTED_FILE</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
@@ -1759,7 +1722,7 @@ Each I/O pin of the AXI GPIO is individually programmable as an input or output 
       </spirit:file>
     </spirit:fileSet>
   </spirit:fileSets>
-  <spirit:description>PetaENC_v1_0 vivado v2023.2</spirit:description>
+  <spirit:description>PetaENC_v1_0 for vivado v2023.2</spirit:description>
   <spirit:parameters>
     <spirit:parameter>
       <spirit:name>Component_Name</spirit:name>
@@ -1776,8 +1739,8 @@ Each I/O pin of the AXI GPIO is individually programmable as an input or output 
       </xilinx:taxonomies>
       <xilinx:displayName>PetaENC_v1_0</xilinx:displayName>
       <xilinx:definitionSource>IPI</xilinx:definitionSource>
-      <xilinx:coreRevision>3</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2024-06-13T13:47:30Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2024-06-19T14:55:50Z</xilinx:coreCreationDateTime>
       <xilinx:configElementInfos>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLK.S_AXI_ACLK.ASSOCIATED_BUSIF" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLK.S_AXI_ACLK.ASSOCIATED_RESET" xilinx:valueSource="user"/>
@@ -1814,10 +1777,10 @@ Each I/O pin of the AXI GPIO is individually programmable as an input or output 
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2023.2.2</xilinx:xilinxVersion>
-      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="2ab2f025"/>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="433793b2"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="8b7188f8"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="a80de40b"/>
-      <xilinx:checksum xilinx:scope="ports" xilinx:value="c089195e"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="e5b66b5f"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="9e0f8ba4"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="f0fdd429"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
